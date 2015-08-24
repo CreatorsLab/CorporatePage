@@ -36,7 +36,7 @@ section:last-child {
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media (min-width: 992px) {
   .jumbotron {
     background-image: url(../img/cl_top_bg.jpg);
     background-position: center center;
