@@ -49,6 +49,12 @@ section:last-child {
   font-family: "myriad-pro",sans-serif;
   letter-spacing: 0.125em;
   color: #3399FF !important;
+
+  background: url("../img/cl_logo_blue.png") no-repeat left center;
+  background-size: contain;
+  height: 50px;
+
+  padding-left: 55px;
 }
 
 .copy-title {
