@@ -8,12 +8,12 @@ section {
   padding-bottom: 30px;
 }
 
-section:first-child {
+section:first-of-type {
   border-bottom: 0px;
   padding-bottom: 0px;
 }
 
-section:last-child {
+section:last-of-type {
   border-bottom: 0px;
 }
 

@@ -46,6 +46,16 @@
 
 <body>
 
+  <!-- FB Script -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
   <!-- For Scroll -->
   <div id="top"></div>
 
@@ -194,6 +204,35 @@
             <p>お申込みいただくことで<a href="http://creatorslab.github.io/terms.html">利用規約</a>及び<a href="http://creatorslab.github.io/privacy.html">プライバシーポリシー</a>に同意いただいたものとします。</p>
         </div>
       </div>
+  </section>
+
+
+  <!-- Socia; -->
+  <section id="follow-us" class="container">
+    <div class="section-title">
+      <h1>Follow Us</h1>
+    </div>
+    <div class="content-subscript">
+      <p>
+        Creator's Lab.の情報をSNSで発信しております。
+      </p>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-6">
+        <!-- Facebook Embeded -->
+        <div class="fabebook-emb">
+          <div class="fb-page" data-href="https://www.facebook.com/creatorslabco" data-width="460" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/creatorslabco"><a href="https://www.facebook.com/creatorslabco">Creator&#039;s Lab.</a></blockquote></div></div>
+        </div>
+      </div>
+      <!-- Twitter Embeded -->
+      <div class="col-md-6">
+        <div class="twitter-emb">
+          <a class="twitter-timeline" href="https://twitter.com/creators_lab_jp" data-widget-id="636795775612129280">@creators_lab_jpさんのツイート</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
   </section>
 
 
