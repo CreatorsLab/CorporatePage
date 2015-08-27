@@ -1,5 +1,9 @@
-* {
+body {
   font-family: "ryo-gothic-plusn",sans-serif;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 section {
@@ -20,6 +24,7 @@ section:last-child {
 #top-message {
   margin-top: 50px;
   padding: 0px;
+  text-shadow: 0 0 3px #000;
 }
 
 
