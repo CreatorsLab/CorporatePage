@@ -22,6 +22,10 @@ section:last-of-type {
   padding: 0px;
 }
 
+.iloli-tytle{
+  font-family: "daniel",cursive;
+  font-weight: bold;
+}
 
 .jumbotron {
   margin-bottom: 0px;
