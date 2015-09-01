@@ -78,7 +78,10 @@ section:last-of-type {
   text-align: center;
 }
 
-
+.thumbnail {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 .content-subscript {
   text-align: center;
