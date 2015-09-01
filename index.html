@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 
 <head>
   <meta charset="utf-8">
@@ -7,6 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Creator's Lab.</title>
+
+  <!-- Meta tag -->
+  <meta name="description" content="株式会社クリエイターズ・ラボの企業情報を発信しております。私達は、ものづくりのプラットフォーム：iloliを運営しております。">
+　<meta name="keywords" content="ものづくり,クリエイター,ラボ,iloli,いろり,囲炉裏,Creator,Lab,挑戦,">
+
+  <!-- OGP -->
+  <meta property="og:title" content="Creator's Lab.">　
+  <meta property="og:type" content="company">
+  <meta property="og:url" content="http://creatorslab.jp/">
+  <meta property="og:image" content="http://creatorslab.jp/img/cl_logo_blue.png">
+  <meta property="og:description" content="株式会社クリエイターズ・ラボの企業情報を発信しております。私達は、ものづくりのプラットフォーム：iloliを運営しております。">
+  <meta property="og:site_name" content="Creator's Lab.">
 
   <!-- Reset Stylesheet -->
   <link rel="stylesheet" type="text/css" href="//yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
@@ -45,6 +57,16 @@
 </head>
 
 <body>
+
+  <!-- FB Script -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- For Scroll -->
   <div id="top"></div>
@@ -114,11 +136,11 @@
     <div class="row">
       <div class="col-md-6">
         <div class="thumbnail">
-          <img src="img/iloli_logo_temp.png" alt="iloliのイメージ図">
+          <img src="img/iloli_logo_base_w_sm.png" alt="iloliロゴ" style="height:160px; width:160px;">
           <div class="caption">
-            <h3>iloli</h3>
-            <p>Made in Japanのブランド価値を構築する。ものづくりに特化したソーシャルネットワークとクラウドファンディングを用いることで、メーカーの持つ技術を最大限に活用することができます。</p>
-            <p class="text-center"><a href="//iloli.co" class="btn btn-primary" role="button">利用</a></p>
+            <h3 class="text-center"><span class="iloli-title">iloli</span></h3>
+            <p>Made in Japanのブランド価値を構築する、ものづくりのプラットフォーム。ものづくりに特化したソーシャルネットワークとクラウドファンディングを用いることで、メーカーの持つ技術を最大限に活用することができます。現在ランディングページを公開しております。</p>
+            <p class="text-center"><a href="//iloli.co" class="btn btn-primary" role="button" target="_blank">利用</a></p>
           </div>
           <!-- /.caption -->
         </div>
@@ -144,16 +166,20 @@
     <table class="table table-responsive">
       <tbody>
         <tr>
-          <td class="td1">社名</td>
+          <td class="td1">会社名</td>
           <td class="td2">株式会社クリエイターズ・ラボ</td>
         </tr>
         <tr>
-          <td class="td1">英文社名</td>
+          <td class="td1">英字会社名</td>
           <td class="td2">Creator's Lab., Inc.</td>
         </tr>
         <tr>
           <td class="td1">代表取締役</td>
           <td class="td2">柳 允雄</td>
+        </tr>
+        <tr>
+          <td class="td1">設立</td>
+          <td class="td2">2015年9月予定（創業準備中）</td>
         </tr>
         <tr>
           <td class="td1">資本金</td>
@@ -191,9 +217,40 @@
     </div>
     <div class="section-contents row">
         <div class="form-notice col-md-8 col-md-offset-2">
-            <p>お申込みいただくことで<a href="http://creatorslab.github.io/terms.html">利用規約</a>及び<a href="http://creatorslab.github.io/privacy.html">プライバシーポリシー</a>に同意いただいたものとします。</p>
+            <p>
+              お問い合わせをいただくことで<a href="http://creatorslab.github.io/privacy.html">プライバシーポリシー</a>に同意いただいたものとします。<br>
+            </p>
         </div>
       </div>
+  </section>
+
+
+  <!-- Socia; -->
+  <section id="follow-us" class="container">
+    <div class="section-title">
+      <h1>Follow Us</h1>
+    </div>
+    <div class="content-subscript">
+      <p>
+        Creator's Lab.の情報をSNSで発信しております。
+      </p>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-6">
+        <!-- Facebook Embeded -->
+        <div class="fabebook-emb">
+          <div class="fb-page" data-href="https://www.facebook.com/creatorslabco" data-width="460" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/creatorslabco"><a href="https://www.facebook.com/creatorslabco">Creator&#039;s Lab.</a></blockquote></div></div>
+        </div>
+      </div>
+      <!-- Twitter Embeded -->
+      <div class="col-md-6">
+        <div class="twitter-emb">
+          <a class="twitter-timeline" href="https://twitter.com/creators_lab_jp" data-widget-id="636795775612129280">@creators_lab_jpさんのツイート</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
   </section>
 
 
